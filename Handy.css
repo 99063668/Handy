@@ -70,10 +70,65 @@ body {
 }
 
 
+.deal{
+  position: relative;
+  background-color: #ffe718;
+  width: 300px;
+  margin-left: 250px;
+  color:  #222931;
+  font-size: 24px;
+  font-weight: 600;
+}
+ 
+.dienst{
+  position: relative;
+  background-color: #ffe718;
+  width: 300px;
+  margin-left: 600px;
+  top: -92px;
+  color:  #222931;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.contact{
+  position: relative;
+  background-color: #ffe718;
+  width: 300px;
+  margin-left: 950px;
+  top: -185px;
+  color:  #222931;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.deals1{
+  font-size: 16px;
+  font-weight: 600;
+}
+.diensten1{
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact1{
+  font-size: 16px;
+  font-weight: 600;
+}
 
 
-
-
+.tekst{
+  position: relative;
+  left: 250px;
+  bottom: 150px;
+  color:  #222931;
+  font-weight: 600;
+  font-size: 34px;
+  width: 550px;
+}
+.tekst2{
+  font-weight: 500;
+  font-size: 16px;
+}
 
 
 
