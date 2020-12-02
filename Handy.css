@@ -124,6 +124,7 @@ body {
   font-weight: 600;
   font-size: 34px;
   width: 550px;
+  height: 300px;
 }
 .tekst2{
   font-weight: 500;
@@ -131,9 +132,36 @@ body {
 }
 
 
+.gegevens{
+  position: relative;
+  left: 950px;
+  bottom: 470px;
+  color:  #222931;
+  font-weight: 600;
+  font-size: 34px;
+  width: 550px;
+  height: 300px;
+}
+.gegeven1{
+  font-weight: 500;
+  font-size: 16px;
+}
 
 
-
+.footers{
+  position: relative;
+  background-color: #222931;
+  color: white;
+  font-size: 12px;
+  width: 1525px;
+  bottom: 300px;
+  height: 100px;
+}
+.footer2{
+  position: relative;
+  float: right;
+  right: 20px;
+}
 
 
 
