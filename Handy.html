@@ -3,7 +3,6 @@
     <head>
         <title>Handy</title>
         <link rel="stylesheet" type="text/css" href="Handy.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -11,11 +10,21 @@
             <img src="img/logo.jpg" alt="logo">
         </div>
         <div class="navbar">
-            <a href=>Home</a>
-            <a href=>Over ons</a>
-            <a href=>Portfolio</a>
-            <a href=>Nieuws</a>
-            <a href=>Contact</a>
+            <a href="#home">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Over ons 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> 
+            <a href="#news">Portfolio</a>
+            <a href="#news">Nieuws</a>
+            <a href="#news">Contact</a>
+            </div>
         </div>
         <div class="bg-img"></div>
 
@@ -41,12 +50,13 @@
             <p class="deals1">Bekijk onze deals</p>
         </div>
         <div class="dienst">
-            <p class="diensten">Diensten</p>
+            <p class="diensten"><svg aria-hidden="true" data-prefix="fas" data-icon="toolbox"  class="toolbox" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.63 214.63l-45.25-45.25c-6-6-14.14-9.37-22.63-9.37H384V80c0-26.51-21.49-48-48-48H176c-26.51 0-48 21.49-48 48v80H77.25c-8.49 0-16.62 3.37-22.63 9.37L9.37 214.63c-6 6-9.37 14.14-9.37 22.63V320h128v-16c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v16h128v-16c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v16h128v-82.75c0-8.48-3.37-16.62-9.37-22.62zM320 160H192V96h128v64zm64 208c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-16H192v16c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-16H0v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96H384v16z"></path></svg>Diensten</p>
             <p class="diensten1">Bekijk onze diensten</p>
         </div>
         <div class="contact">
-            <p class="contactt">Contact</p>
+            <p class="contactt"><svg aria-hidden="true" data-prefix="far" data-icon="envelope" class="envelop" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>Contact</p>
             <p class="contact1">Stuur een bericht</p>
+            
         </div>
 
         <div class="tekst">
@@ -64,11 +74,35 @@
         </div>
         <div class="gegevens">
             <p class="gegeven">Contact</p>
-            <p class="gegeven1">Romboutslaan 34</p>
-            <p class="gegeven1">3312 KP Dordrecht</p>
-            <p class="gegeven1">078 - 699 9999</p>
-            <p class="gegeven1">info@davinci-handy.nl</p>
-        </div>
+            <span class="cardSpan">
+                <span class="icon">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#000000" d="M12 4C14.2091 4 16 5.79086 16 8C16 10.2091 14.2091 12 12 12C9.79086 12 8 10.2091 8 8C8 5.79086 9.79086 4 12 4ZM12 14C16.4183 14 20 15.7909 20 18L20 20L4 20L4 18C4 15.7909 7.58172 14 12 14Z"></path></svg>
+                </span>
+                <span class="text">Romboutslaan 34</span>
+              </span>
+              <p>
+                  <p class="adres">3312 KP Dordrecht</p>
+                <span class="cardSpan2">
+                  <span class="icon">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                      <path fill="#000000" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                    </svg>
+                  </span>
+                  <span class="text">078 - 699 9999</span>
+                </span>
+              </p>
+              <p>
+                <span class="cardSpan3">
+                  <span class="icon">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                      <path fill="#000000" d="M14,10V4.5L19.5,10M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V9L15,3H5Z" />
+                    </svg>
+                  </span>
+                  <span class="text">info@davinci-handy.nl</span>
+                </span>
+              </p>
+
+           
 
         <div class="footers">
             <p class="footer2">© [Dewi van der Velden], 2020</p>
