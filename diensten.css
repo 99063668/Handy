@@ -356,29 +356,52 @@ body {
 
 
 
+
+
+
+
+
+/*Tooltip text*/
 .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 2px solid #ffe718;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #ffe718;
-    color: black;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-   
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+  position: relative;
+  color: #00b4ab;
+}
+
+.tooltip .tooltip-text {
+  font-size: 1em;
+  line-height: 1.5em;
+  visibility: hidden;
+  max-width: 300px;
+  background-color: #00b4ab;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: .3s;
+  transform: translate3d(0px, 20px, 0px);
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #00b4ab transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+
