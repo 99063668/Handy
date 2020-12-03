@@ -197,6 +197,7 @@ body {
 .dropdown {
   float: left;
   overflow: hidden;
+  z-index: 99;
 }
 
 .dropdown .dropbtn {
@@ -242,7 +243,7 @@ body {
 .bg-img {
   background-image: url("img/header.jpg");
   min-height: 380px;
-  top: 10px;
+  z-index: -99;
   background-size: cover;
   width: 1525px;
 }
@@ -301,4 +302,23 @@ body {
   bottom: -10px;
   width: 40px;
   height: 40px;
+}
+
+.marker{
+  position: relative;
+  bottom: -10px;
+  width: 30px;
+  height: 30px;
+}
+.phone{
+  position: relative;
+  bottom: -10px;
+  width: 30px;
+  height: 30px;
+}
+.envelope{
+  position: relative;
+  bottom: -10px;
+  width: 30px;
+  height: 30px;
 }

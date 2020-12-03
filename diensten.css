@@ -1,0 +1,384 @@
+body {
+    width: 1000px;
+    line-height: 24px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  [src="img/logo.jpg"]{
+    position: relative;
+    top: 15px;
+    left: 250px;
+  }
+  
+  
+  .centerimages{
+    position: relative;
+    top: 60px;
+    left: 250px;
+  }
+  
+  [src="img/banner-1.jpg"]{
+    margin-left: 10px;
+    position: relative;
+  }
+  [src="img/banner-2.jpg"]{
+    margin-left: 10px;
+  }
+  [src="img/banner-3.jpg"]{
+    margin-left: 10px;
+  }
+  
+  .box{
+    position: relative;
+    background-color: #ffe718;
+    width: 1525px;
+    top: 80px;
+  }
+  .box1{
+    position: relative;
+    left: 350px;
+    top: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    color:  #222931;
+  }
+  .box2{
+    position: relative;
+    left: 750px;
+    bottom: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color:  #222931;
+  }
+  
+  .button{
+    position: relative;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    top: -5px;
+    left: 1200px;
+  }
+  .button1{
+    font-weight: 500;
+    float: left;
+    margin: 15px 25px;
+    font-size: 16px;
+    color:  #222931;
+  }
+  
+  
+  .deal{
+    position: relative;
+    background-color: #ffe718;
+    width: 300px;
+    bottom: 15px;
+    margin-left: 250px;
+    color:  #222931;
+    font-size: 24px;
+    font-weight: 600;
+  }
+   
+  .dienst{
+    position: relative;
+    background-color: #ffe718;
+    width: 300px;
+    margin-left: 600px;
+    bottom: 110px;
+    color:  #222931;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .contact{
+    position: relative;
+    background-color: #ffe718;
+    width: 300px;
+    margin-left: 950px;
+    bottom: 225px;
+    color:  #222931;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .deals1{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .diensten1{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    left: 40px;
+    bottom: 10px;
+  }
+  .contact1{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    left: 40px;
+    bottom: 10px;
+  }
+  
+  
+  .tekst{
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+    color:  #222931;
+    font-weight: 600;
+    font-size: 34px;
+    width: 550px;
+    height: 300px;
+  }
+  .tekst2{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  
+  .gegevens{
+    position: relative;
+    left: 950px;
+    bottom: 470px;
+    color:  #222931;
+    font-weight: 600;
+    font-size: 34px;
+    width: 550px;
+    height: 300px;
+  }
+  .gegeven1{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  
+  .footers{
+    position: relative;
+    background-color: #222931;
+    color: white;
+    font-size: 12px;
+    width: 1525px;
+    bottom: 300px;
+    height: 100px;
+  }
+  .footer2{
+    position: relative;
+    float: right;
+    right: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .navbar {
+    overflow: hidden;
+    width: 950px;
+    background-color: #222931;
+    position: relative;
+    top: 30px;
+    left: 250px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffe718;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222931;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ffe718;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .bg-img {
+    background-image: url("img/header.jpg");
+    min-height: 380px;
+    top: 10px;
+    background-size: cover;
+    width: 1525px;
+    z-index: -1;
+  }
+  
+  .footer{
+    position: relative;
+    min-height: 380px;
+    top: 25px;
+    background-size: cover;
+    width: 1525px;
+  }
+  
+  
+  .icon,
+  .text {
+    vertical-align: middle;
+    display: inline-block;
+    color: #5f656d;
+    font-size: 16px;
+    margin: 0;
+  }
+  .cardSpan2{
+    position: relative;
+    bottom:15px;
+  }
+  .cardSpan3{
+    position: relative;
+    bottom:20px;
+  }
+  .adres{
+    color: #5f656d;
+    position: relative;
+    font-size: 16px;
+    margin: 0;
+    bottom: 35px;
+    left: 33px;
+  }
+  
+  .footers{
+    position: relative;
+    right: 980px;
+    width: 1550px;
+    bottom: -30px;
+  }
+  
+  
+  
+  .envelop{
+    position: relative;
+    bottom: -10px;
+    width: 40px;
+    height: 40px;
+  }
+  .toolbox{
+    position: relative;
+    bottom: -10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .marker{
+    position: relative;
+    bottom: -10px;
+    width: 30px;
+    height: 30px;
+  }
+  .phone{
+    position: relative;
+    bottom: -10px;
+    width: 30px;
+    height: 30px;
+  }
+  .envelope{
+    position: relative;
+    bottom: -10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .pagina2{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color:  #222931;
+    font-weight: 600;
+    font-size: 12px;
+    width: 550px;
+    height: 300px;
+  }
+  .pagina{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        color:  #222931;
+        font-weight: 600;
+        font-size: 36px;
+        width: 550px;
+        height: 300px;
+        margin: 0;
+        left: 50px;
+      }
+  
+.bread{
+    position: relative;
+    left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px solid #ffe718;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #ffe718;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+   
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
