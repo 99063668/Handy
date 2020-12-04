@@ -86,7 +86,7 @@ body {
     background-color: #ffe718;
     width: 300px;
     margin-left: 600px;
-    bottom: 110px;
+    bottom: 130px;
     color:  #222931;
     font-size: 24px;
     font-weight: 600;
@@ -97,7 +97,7 @@ body {
     background-color: #ffe718;
     width: 300px;
     margin-left: 950px;
-    bottom: 225px;
+    bottom: 245px;
     color:  #222931;
     font-size: 24px;
     font-weight: 600;
@@ -364,15 +364,15 @@ body {
 /*Tooltip text*/
 .tooltip {
   position: relative;
-  color: #00b4ab;
+  color: #ffe718;
 }
 
 .tooltip .tooltip-text {
   font-size: 1em;
   line-height: 1.5em;
   visibility: hidden;
-  max-width: 300px;
-  background-color: #00b4ab;
+  max-width: 500px;
+  background-color: #aeb6be;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -380,7 +380,7 @@ body {
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
+  left: 80%;
   margin-left: -60px;
   opacity: 0;
   transition: .3s;
@@ -391,11 +391,11 @@ body {
   content: "";
   position: absolute;
   top: 100%;
-  left: 50%;
+  left: 80%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #00b4ab transparent transparent transparent;
+  border-color: #aeb6be transparent transparent transparent;
 }
 
 .tooltip:hover .tooltip-text {

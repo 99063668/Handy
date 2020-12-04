@@ -35,3 +35,45 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+  
+  .container {
+    position: relative;
+    width: 33.3333%;
+    float: left;
+    background-color: #222931;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px; 
+  }
+  
+  .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
