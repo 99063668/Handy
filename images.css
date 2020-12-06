@@ -42,7 +42,6 @@
     position: relative;
     width: 33.3333%;
     float: left;
-    background-color: #222931;
   }
   
   .image {
@@ -51,6 +50,7 @@
     width: 100%;
     height: auto;
     margin: 10px; 
+    background-color: #222931;
   }
   
   .middle {
@@ -61,19 +61,23 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    background-color: #222931;
   }
   
   .container:hover .image {
     opacity: 0.3;
+    background-color: #222931;
   }
   
   .container:hover .middle {
     opacity: 1;
+    background-color: #222931;
   }
   
   .text {
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+    background-color: #222931;
   }
   

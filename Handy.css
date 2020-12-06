@@ -30,15 +30,100 @@ body {
   margin-left: 10px;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+     background: rgba(0,0,0,0.5);
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    width:40%;
+    height:100%;
+    transition:opacity 0.5s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  
+  .container {
+    position: relative;
+    width: 33.3333%;
+    float: left;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 50px; 
+    margin-left: 300px;
+    background-color: #222931;
+  }
+  
+  .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #222931;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+    background-color: #222931;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+    background-color: #222931;
+  }
+  
+  .text2 {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    background-color: #222931;
+  }
+  
+
 .box{
   position: relative;
   background-color: #ffe718;
   width: 1525px;
-  top: 80px;
+  top: 300px;
 }
 .box1{
   position: relative;
-  left: 350px;
+  right: 550px;
   top: 30px;
   font-size: 36px;
   font-weight: 700;
@@ -46,28 +131,28 @@ body {
 }
 .box2{
   position: relative;
-  left: 750px;
+  right: 110px;
   bottom: 25px;
   font-size: 16px;
   font-weight: 700;
   color:  #222931;
 }
 
-.button{
+.button2{
   position: relative;
   background-color: white;
   width: 150px;
   height: 50px;
-  top: -5px;
+  top: -15px;
   left: 1200px;
 }
-.button1{
-  font-weight: 500;
-  float: left;
-  margin: 15px 25px;
-  font-size: 16px;
-  color:  #222931;
+.button2:hover
+{
+background-image:none;
+background-color:#222931;
+color: white;
 }
+
 
 
 .deal{
@@ -183,6 +268,7 @@ body {
   position: relative;
   top: 30px;
   left: 250px;
+  z-index: 1;
 }
 
 .navbar a {
@@ -191,13 +277,14 @@ body {
   color: white;
   text-align: center;
   padding: 14px 16px;
+  position: relative;
   text-decoration: none;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  z-index: 99;
+  z-index: 1;
 }
 
 .dropdown .dropbtn {
@@ -217,7 +304,6 @@ body {
 
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color: #222931;
   min-width: 160px;
 }
@@ -232,6 +318,7 @@ body {
 }
 
 .dropdown-content a:hover {
+  color: black;
   background-color: #ffe718;
 }
 
@@ -241,6 +328,7 @@ body {
 
 
 .bg-img {
+  position: relative;
   background-image: url("img/header.jpg");
   min-height: 380px;
   z-index: -99;
