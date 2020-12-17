@@ -1,5 +1,4 @@
 body {
-    width: 1000px;
     line-height: 24px;
     font-family: 'Archivo', sans-serif;
     font-size: 14px;
@@ -20,7 +19,7 @@ body {
   .box{
     position: relative;
     background-color: #ffe718;
-    width: 1525px;
+    width: 100%;
     top: 80px;
   }
   .box1{
@@ -148,7 +147,7 @@ body {
     background-color: #222931;
     color: white;
     font-size: 12px;
-    width: 1525px;
+    width: 100%;
     bottom: 300px;
     height: 100px;
   }
@@ -233,7 +232,8 @@ body {
   min-height: 380px;
   z-index: -99;
   background-size: cover;
-  width: 1525px;
+  bottom: 20px;
+  width: 100%;
 }
   
   .footer{
@@ -241,7 +241,7 @@ body {
     min-height: 380px;
     top: 25px;
     background-size: cover;
-    width: 1525px;
+    width: 100%;
   }
   
   
@@ -273,7 +273,7 @@ body {
   .footers{
     position: relative;
     right: 980px;
-    width: 1550px;
+    width: 100%;
     bottom: -30px;
   }
   
@@ -335,10 +335,11 @@ body {
       }
   
 .bread{
-    position: relative;
-    left: 30px;
-    font-size: 12px;
-    font-weight: 400;
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  right: 750px;
+  bottom: 1520px;
 }
 
 
@@ -372,6 +373,8 @@ body {
   opacity: 0;
   transition: .3s;
   transform: translate3d(0px, 20px, 0px);
+  max-width: 40px;
+  min-width: 250px;
 }
 
 .tooltip .tooltip-text::after {
@@ -392,3 +395,155 @@ body {
 }
 
 
+.ribbon {
+  background-color: #ffe718;
+  height: 100px;
+  width: 100%;  
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.ribbon h1{
+  display: inline-block;
+  margin-right: 10px; 
+  margin-left: 300px; 
+  color: #222931;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.ribbon p{
+  display: inline-block;
+  margin-right: 150px;     
+  color: #222931;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ribbon button{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background-color: #ffffff;       
+}
+
+.ribbon button:hover{
+  color: #ffffff;
+  border: none;
+  background-color: #222931;
+}
+
+.footer_foto {
+  width: 100%;
+}
+
+.tooltips_container {
+  position: relative;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltips_container a {
+  text-decoration: none;
+}
+
+.tooltip {
+  display: inline-block;
+  color: #222931;
+  background-color: #ffe718;
+  padding: 10px;
+}
+
+.tooltip:hover {
+  color: #ffffff;
+  background-color: #222931;
+}
+
+.tooltip2 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text_tooltip {
+  float: right;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.tooltip h2 {
+  /* color: black; */
+  font-size: 20px;
+  margin: 0px;
+}
+
+.tooltip p {
+  /* color: black; */
+  font-size: 14px;
+  margin: 0px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.contact_over_ons_container {
+  color: #222931;
+  display: flex;
+}
+
+.contact_over_ons_container h1{
+  font-size: 24px;
+  font-weight: 600;
+  color: #222931;
+}
+
+.over_ons, .contact {
+  margin-top: 20px;
+}
+
+.over_ons {
+  width: 400px;
+  margin-right: 200px;
+}
+
+.contact {
+  padding: 0px;
+}
+
+.contact ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.contact ul li p{
+  padding-left: 5px;
+}
+
+.contact_icon {
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  color: #222931;
+}
+
+.footer_tekst {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
